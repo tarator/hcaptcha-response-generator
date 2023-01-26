@@ -1,0 +1,44 @@
+<!doctype html >
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>h-captcha-response Generator</title>
+    <script src="hcaptcha.js?version=2"></script>
+    <script src="https://js.hcaptcha.com/1/api.js" async defer></script>
+
+    
+  </head>
+  <body>
+    <h1>h-captcha-response Generator</h1>
+    <h2>Step 1: Provide Public hCaptcha-Sitekey</h2>
+    <p>hCaptcha Sitekey should look like this:<br>
+      <a href="?sitekey=27a14814-d592-444c-a711-4447baf41f48">27a14814-d592-444c-a711-4447baf41f48</a>
+    </p>
+    <form action="" method="GET" id="sitekey-form">
+      <label for="sitekey">Public hCaptcha Sitekey</label><br>
+      <input type="text" value="" id="sitekey" name="sitekey" size="33" /><br><br>
+      <input type="submit"  value="Load hCaptcha" />
+    </form>
+    <hr>
+    <h2>Step 2: Solve hCaptcha and click "Generate"</h2>
+    <form action="/" method="POST" id="hcaptcha-form">
+      <input type="submit" value="Generate h-captcha-response" />
+    </form>
+    <hr>
+    <h2>Step 3: Copy h-captcha-response and use in request</h2>
+    <div>
+      <span>
+        <label for="resp">h-captcha-response</label><br>
+        <textarea id="resp" cols="42" rows="5" ></textarea>
+      </span>
+      <br><br>
+      <button onclick="copyToClipboard()" id="copybt" >Copy h-captcha-reponse</button><br>
+      <span id="cpmessage"></span>
+    </div>
+    <hr>
+    <p>You can bookmark this page with hCaptcha-Sitekey prefilled</p>
+    <p>Powered by <a href="https://www.abenthung.it" target="_blank">Abenthung.it</a> (CC-BY-SA)</p>
+  </body>
+</html>
+

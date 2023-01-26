@@ -6,4 +6,4 @@ The generated `h-captcha-response` can be used in REST-Tools like postman as req
 
 [Online Demo](https://hcaptcha.projecttac.com) available.
 
-![Example](hcaptcha-response-generator.jpg)
+[![Example](hcaptcha-response-generator.jpg)](https://hcaptcha.projecttac.com)

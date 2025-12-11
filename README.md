@@ -12,9 +12,9 @@ The generated `h-captcha-response` can be used in REST-Tools like postman as req
 
 ## Get the code
 
-* [Original Codebase (self-hosted Gitlab)](https://gitlab.projecttac.com/tarator/hcaptcha-response-generator)
+* [Original Codebase (self-hosted Gitlab)](https://gitlab.abenthung.it/tarator/hcaptcha-response-generator)
 * [Code on Github](https://github.com/tarator/hcaptcha-response-generator)
 
 ## License
 
-* [GNU AGPLv3](https://gitlab.projecttac.com/tarator/hcaptcha-response-generator/-/blob/main/LICENSE) (let's talk about this if necessary)
+* [GNU AGPLv3](https://gitlab.abenthung.it/tarator/hcaptcha-response-generator/-/blob/main/LICENSE) (let's talk about this if necessary)
